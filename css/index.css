@@ -1,0 +1,142 @@
+/* screen - index */
+
+.index {
+  align-items: flex-start;
+  display: flex;
+  height: 757px;
+  min-width: 375px;
+}
+
+.index .index-1 {
+  align-items: center;
+  background-color: var(--neutral01);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  position: relative;
+  width: 375px;
+}
+
+.index .flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 18px;
+  min-height: 743px;
+  position: relative;
+  width: 357px;
+}
+
+.index .flex-row {
+  align-items: flex-end;
+  display: flex;
+  gap: 196px;
+  margin-left: 6.0px;
+  min-width: 351px;
+}
+
+.index .offer {
+  height: 55px;
+  margin-bottom: 3.12px;
+  width: 58px;
+}
+
+.index .navigation {
+  align-items: center;
+  background-color: var(--neutral02);
+  cursor: pointer;
+  display: flex;
+  gap: 1145px;
+  height: 88px;
+  padding: 0px 40px;
+  position: relative;
+  width: 97px;
+}
+
+.index .frame-313 {
+  align-items: center;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  height: 117px;
+  justify-content: center;
+  margin-left: 6px;
+  margin-top: 32px;
+  position: relative;
+  width: 327px;
+}
+
+.index .title {
+  align-self: stretch;
+  color: var(--neutral07);
+  font-weight: 600;
+  line-height: 56px;
+  position: relative;
+  text-align: center;
+}
+
+.index .guard-your-home {
+  align-self: stretch;
+  color: var(--neutral04);
+  font-weight: 500;
+  line-height: 28px;
+  position: relative;
+  text-align: center;
+}
+
+.index .button-1 {
+  align-items: center;
+  background-color: var(--color01);
+  border-radius: 48px;
+  box-shadow: inset 0px 1px 0px #ffffff1a;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-right: 24.0px;
+  margin-top: 38px;
+  padding: 12px 24px;
+  position: relative;
+  width: 155px;
+}
+
+.index .button {
+  color: var(--neutral01);
+  font-weight: 600;
+  line-height: 24px;
+  margin-top: -1.00px;
+  position: relative;
+  white-space: nowrap;
+  width: fit-content;
+}
+
+.index .button-2 {
+  align-items: center;
+  background-color: var(--color01);
+  border-radius: 48px;
+  box-shadow: inset 0px 1px 0px #ffffff1a;
+  display: inline-flex;
+  gap: 8px;
+  justify-content: center;
+  margin-right: 24.0px;
+  margin-top: 30px;
+  padding: 12px 24px;
+  position: relative;
+}
+
+.index .element_2_obj {
+  align-items: flex-start;
+  align-self: flex-start;
+  background-image: url(../img/element-2-shadow.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-top: 8px;
+  min-width: 334px;
+}
+
+.index .element_2_obj-1 {
+  height: 334px;
+  object-fit: cover;
+  width: 334px;
+}

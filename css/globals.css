@@ -1,0 +1,82 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Poppins:500,400,600");
+/* The following line is used to measure usage of this code. You can remove it if you want. */
+@import url("https://px.animaapp.com/64e70f7ae1c2a81b98b3cd0f.64e70f7be1c2a81b98b3cd12.2T70G9k.hcp.png");
+
+
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  pointer-events: none;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.frame-318 {
+  align-self: stretch;
+  background-color: var(--neutral02);
+  height: 757px;
+  position: relative;
+  width: 100%;
+}
+
+.nav-bound {
+  align-items: center;
+  border-bottom-style: solid;
+  border-bottom-width: 2px;
+  border-color: var(--neutral03);
+  display: flex;
+  flex: 1;
+  flex-grow: 1;
+  justify-content: space-between;
+  padding: 24px 0px;
+  position: relative;
+}
+
+.right {
+  align-items: center;
+  display: inline-flex;
+  flex: 0 0 auto;
+  gap: 1145px;
+  justify-content: flex-end;
+  margin-left: -11.50px;
+  margin-right: -11.50px;
+  position: relative;
+}
+
+.burger-button {
+  height: 40px;
+  position: relative;
+  width: 40px;
+}
+
+.burger-icon {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-height: 12px;
+  position: relative;
+  top: 14px;
+}
+
+.rectangle-2 {
+  background-color: var(--neutral04);
+  height: 2px;
+  width: 40px;
+}

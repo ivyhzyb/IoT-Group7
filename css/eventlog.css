@@ -1,0 +1,163 @@
+/* screen - eventlog */
+
+.eventlog {
+  align-items: flex-start;
+  display: flex;
+  height: 900px;
+  min-width: 375px;
+  overflow-x: hidden;
+}
+
+.eventlog .overlap-group2 {
+  height: 1422px;
+  position: relative;
+  width: 377px;
+}
+
+.eventlog .overlap-group {
+  height: 1422px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.eventlog .menu {
+  align-items: center;
+  background-color: var(--neutral02);
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  height: 1422px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 375px;
+}
+
+.eventlog .navigation {
+  align-items: center;
+  background-color: var(--neutral02);
+  cursor: pointer;
+  display: flex;
+  gap: 1145px;
+  height: 88px;
+  left: 278px;
+  padding: 0px 40px;
+  position: absolute;
+  top: 0;
+  width: 97px;
+}
+
+.eventlog .offer {
+  cursor: pointer;
+  height: 55px;
+  left: 24px;
+  position: absolute;
+  top: 30px;
+  width: 58px;
+}
+
+.eventlog .title {
+  color: var(--neutral07);
+  font-family: var(--font-family-poppins);
+  font-size: var(--font-size-xxxl);
+  font-weight: 600;
+  left: 24px;
+  letter-spacing: -0.64px;
+  line-height: 36px;
+  position: absolute;
+  text-align: center;
+  top: 123px;
+  width: 327px;
+}
+
+.eventlog .logdetails {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 12px;
+  display: flex;
+  height: 700px;
+  left: 20px;
+  min-width: 335px;
+  padding: 25px 21px;
+  position: absolute;
+  top: 487px;
+}
+
+.eventlog .frame-163 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 640px;
+  position: relative;
+  width: 286px;
+}
+
+.eventlog .text-1 {
+  margin-top: -1.00px;
+  width: 282px;
+}
+
+.eventlog .text-2 {
+  width: 276px;
+}
+
+.eventlog .text-3 {
+  width: 283px;
+}
+
+.eventlog .text {
+  width: 286px;
+}
+
+.eventlog .frame-322 {
+  align-items: flex-start;
+  background-color: #e5eef1;
+  border-radius: 12px;
+  display: flex;
+  height: 216px;
+  justify-content: flex-end;
+  left: 20px;
+  min-width: 335px;
+  padding: 0 13.5px;
+  position: absolute;
+  top: 216px;
+}
+
+.eventlog .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/32-shadow.png);
+  background-position: 50% 50%;
+  background-size: cover;
+  display: flex;
+  margin-top: -57.6px;
+  min-width: 298px;
+}
+
+.eventlog .x32_obj-2 {
+  height: 299px;
+  object-fit: cover;
+  width: 298px;
+}
+
+.eventlog .the-event-log-disp {
+  color: var(--neutral04);
+  font-weight: 500;
+  left: 35px;
+  line-height: 28px;
+  position: absolute;
+  text-align: center;
+  top: 1226px;
+  width: 306px;
+}
+
+.eventlog .text-4 {
+  height: 24px;
+  letter-spacing: 0.40px;
+  line-height: 24px;
+  position: relative;
+  text-align: center;
+  white-space: nowrap;
+}
