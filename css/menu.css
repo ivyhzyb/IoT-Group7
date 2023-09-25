@@ -1,98 +1,85 @@
-/* screen - menu */
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
 
-.menu {
-  align-items: flex-start;
+body {
+  width: 100%;
+  max-width: 375px; 
+  margin: 0 auto;
+  height: 667px;
+  overflow: auto; 
+  background-color: rgba(152, 171, 209, 0.1);
+}
+
+.menu header {
   display: flex;
-  min-width: 375px;
-  overflow-x: hidden;
-}
-
-.menu .overlap-group1 {
-  height: 757px;
-  position: relative;
-  width: 379px;
-}
-
-.menu .overlap-group {
-  height: 757px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 375px;
-}
-
-.menu .menu-1 {
+  justify-content: space-between;
   align-items: center;
-  background-color: #97abd1;
-  display: flex;
-  flex-direction: column;
-  gap: 24px;
-  left: 0;
-  position: absolute;
-  top: 0;
-  width: 375px;
+  padding: 10px;
 }
 
-.menu .navigation {
-  align-items: center;
-  background-color: var(--neutral02);
-  cursor: pointer;
-  display: flex;
-  gap: 1145px;
-  height: 88px;
-  left: 278px;
-  padding: 0px 40px;
-  position: absolute;
-  top: 0;
-  width: 97px;
-}
-
-.menu .offer {
+.menu header img {
+  margin-left: 20px;
+  margin-top: 20px;
   height: 55px;
-  left: 24px;
-  position: absolute;
-  top: 30px;
-  width: 58px;
-}
-
-.menu .event-log {
-  color: #1e1e1e;
-  cursor: pointer;
-  font-weight: 500;
-  left: 24px;
-  line-height: 28px;
-  position: absolute;
-  text-align: center;
-  top: 267px;
-  width: 327px;
-}
-
-.menu .setup-time {
-  color: #1e1e1e;
-  cursor: pointer;
-  font-weight: 500;
-  left: 24px;
-  line-height: 28px;
-  position: absolute;
-  text-align: center;
-  top: 169px;
-  width: 327px;
-}
-
-.menu .line-186 {
-  height: 1px;
-  left: 38px;
-  object-fit: cover;
-  position: absolute;
-  top: 112px;
-  width: 300px;
 }
 
 .menu .icon-cancel {
   cursor: pointer;
-  height: 40px;
-  left: 311px;
-  position: absolute;
-  top: 33px;
-  width: 40px;
+  margin-right: 20px;
+}
+
+.menu .horizontal-line {
+  width: 30px;
+  height: 3px;
+  background-color: #787f84;
+  cursor: pointer;
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu .h5s {
+  color: #1e1e1e;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  letter-spacing: -0.2px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.menu .line {
+  width: 80%; /* 设置宽度为100% */
+  height: 1px;
+  background-color: #ECECEC;
+  margin: 10px auto; /* 上下居中，左右无外边距 */
+}
+
+.menu footer {
+  text-align: center;
+}
+
+.menu footer img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
