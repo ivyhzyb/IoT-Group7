@@ -19,6 +19,7 @@ body {
   margin: 0 auto;
   height: 667px;
   overflow: auto; 
+  background-color: #f4f5f6;
 }
 
 header {
