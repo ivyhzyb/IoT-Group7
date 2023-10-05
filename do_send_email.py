@@ -59,4 +59,6 @@ image_set = {"./picture1.jpg", "./picture2.jpg"}
 
 if should_send_email:
     for user_email in user_email_address_list:
+        print("Sending email to " + user_email)
         send_email_with_images(user_email, image_set)
+        print("Email sent to " + user_email)
