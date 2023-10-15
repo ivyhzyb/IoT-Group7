@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Gate Keeper - Setuptime</title>
+    <link rel="shortcut icon" href="img/offer-1@2x.png" />
+    <link rel="stylesheet" type="text/css" href="css/setuptime.css" />
+    <script src="js/aws-iot-sdk-browser-bundle-min.js"></script>
+    <script src="js/aws-configuration.js"></script>
+    <script src="js/TimeMessages.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/offer-1@2x.png" alt="Icon" /></a>
+      <a href="menu.html" class="menu-link">
+        <div class="horizontal-line"></div>
+        <div class="horizontal-line"></div>
+      </a>
+    </header>
+    <div class="title">
+      <h1>Setup time</h1>
+      <div class="pic">
+        <div class="shadow">
+          <img class="picture" src="img/8-obj.png" alt="32_obj 2" />
+        </div>
+      </div>
+    </div>
+    <div class="centered-content">
+      <input type="time" id="time1" />
+      <div class="to-text">to</div>
+      <input type="time" id="time2" />
+      <p id="ErrorMessage"></p>
+      <button id="DeviceTimeSetButton">Done</button>
+    </div>
+    <div class="text">
+      “Setup Time” allows you to specify when your security system should be
+      active. Customize time periods for arming and disarming your system to
+      align with your daily schedule and security needs!
+    </div>
+  </body>
+  <script src="./js/setuptime.js"></script>
+</html>

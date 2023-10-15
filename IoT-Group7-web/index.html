@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
+    />
+    <title>Gate Keeper</title>
+    <link rel="shortcut icon" href="img/offer-1@2x.png" />
+    <link rel="stylesheet" type="text/css" href="css/index.css" />
+
+    
+    <script src="js/aws-iot-sdk-browser-bundle-min.js"></script>
+    <script src="js/aws-configuration.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="index.html"><img src="img/offer-1@2x.png" alt="Icon" /></a>
+      <a href="menu.html" class="menu-link">
+        <div class="horizontal-line"></div>
+        <div class="horizontal-line"></div>
+      </a>
+    </header>
+    <div class="title">
+      <h1>Gate Keeper</h1>
+      <h3>Guard Your Home</h3>
+    </div>
+
+    <main>
+      <button id="DeviceArmingEventButton">Arm System</button>
+    </main>
+    <footer>
+      
+      <div id=lights></div>
+      <img id="Armed" src="img/element-2-obj.png" />
+      <div id="preload">
+          <img src="img/element-2-obj-unlocked.png" width="1 px" height="1 px" />
+          <img src="img/element-2-obj-locked.png" width="1 px" height="1 px" />
+      </div>
+    </footer>
+  </body>
+</html>

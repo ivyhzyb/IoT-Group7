@@ -1,0 +1,85 @@
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 100%;
+  max-width: 375px; 
+  margin: 0 auto;
+  height: 667px;
+  overflow: auto; 
+  background-color: rgba(152, 171, 209, 0.1);
+}
+
+.menu header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+.menu header img {
+  margin-left: 20px;
+  margin-top: 20px;
+  height: 55px;
+}
+
+.menu .icon-cancel {
+  cursor: pointer;
+  margin-right: 20px;
+}
+
+.menu .horizontal-line {
+  width: 30px;
+  height: 3px;
+  background-color: #787f84;
+  cursor: pointer;
+}
+
+.menu nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.menu .h5s {
+  color: #1e1e1e;
+  cursor: pointer;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; 
+  letter-spacing: -0.2px;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.menu .line {
+  width: 80%; /* 设置宽度为100% */
+  height: 1px;
+  background-color: #ECECEC;
+  margin: 10px auto; /* 上下居中，左右无外边距 */
+}
+
+.menu footer {
+  text-align: center;
+}
+
+.menu footer img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
